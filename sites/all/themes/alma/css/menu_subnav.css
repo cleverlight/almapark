@@ -1,0 +1,27 @@
+/*
+ *  Menu - sub navigation (left pane)
+ */
+
+#subnav ul
+{
+	margin-top: 0;
+}
+
+#subnav li
+{
+	list-style-image: none;
+	line-height: 1.8em;
+}
+
+#subnav a, #subnav a:visited, #subnav a:link
+{
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#subnav a:hover
+{
+  color: #000000;
+  text-decoration: underline;
+}

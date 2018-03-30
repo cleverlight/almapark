@@ -1,0 +1,30 @@
+/*
+ *  Front - dedicated styles for the front page
+ */
+
+div.highlight_front
+{
+	width: 203px;
+	background-color: #787737;
+	padding: 0;
+	color: #FFFFFF;
+	margin: 10px 0 0 24px;
+}
+
+div.highlight_front p.img, div.highlight_front img
+{
+	margin: 0;
+	padding: 0;
+}
+
+div.highlight_front p
+{
+	margin: 10px 6px 10px 10px;
+}
+
+div.highlight_front p.heading
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: -10px;
+}

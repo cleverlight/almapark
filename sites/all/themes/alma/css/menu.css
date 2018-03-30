@@ -1,0 +1,61 @@
+/*
+ *  Menu - top level
+ */
+
+div.flatmenu
+{
+	background-image: url(../backgrounds/headback.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 60px;
+}
+
+div.flatmenu img
+{
+	margin: 0 0 0 20px !important;
+}
+
+table.flatmenu
+{
+  margin: 30px 10px 0 0 ;
+  float: right;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#flatmenu td
+{
+  padding: 0 10px 0 10px;
+  height: 16px;
+  border-left-color: #FFFFFF;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+.level-0
+{
+}
+
+.level-0-selected, .level-1
+{
+}
+
+tbody {
+	border-top: none;
+}
+
+/*
+ *  Link styles
+ */
+#flatmenu a, #flatmenu a:visited, #flatmenu a:link
+{
+  color: #FFFFFF;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#flatmenu a:hover
+{
+  color: #FFFFFF;
+  text-decoration: underline;
+}

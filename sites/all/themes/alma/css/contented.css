@@ -1,0 +1,108 @@
+/*
+ *  Contented
+ *     Sub-themes for content pane
+ */
+
+/* general */
+div.content p {
+	margin: 8px 12px 0px 14px;
+}
+
+div.content p.h2 {
+	padding: 2px 12px 2px 12px;
+	margin: 0;
+}
+
+/*
+ *  About us
+ */
+#about_us div
+{
+	background-color: #FFFFC7;
+}
+
+#about_us div.h1 {
+	background-color: #FFF531;
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px 0px 7px 14px;
+	margin: 0px;
+}
+
+#about_us div.h1 h1 {
+	background-color: transparent;
+	background-position: top right;
+	background-repeat: no-repeat;
+	padding: 8px 0px 3px 0px;
+	margin: 0px;
+	font-family: arial;
+	font-size: 19pt;
+	font-weight: normal;
+	color: #000000;
+	line-height: 24px;
+}
+
+#about_us div.h2 {
+	background-color: #FFF531;
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+	margin: 20px 0px 4px 0px;
+	padding: 2px 0px 2px 0px;
+	clear: both;
+}
+
+#about_us h2 {
+	background-color: #fff531;
+	background-image: url('http://www.almapark.co.uk/sites/all/themes/alma/images/aboutUs_class_title.gif');
+	background-repeat: no-repeat;
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+	padding: 0px 0px 2px 4px;
+	line-height: 14px;
+	margin: 0px;
+}
+
+/* Facilities */
+
+table.rates td
+{
+  padding: 4px;
+  border: 1px solid #999999;
+}
+
+table.rates td.heading
+{
+  font-weight: bold;
+}
+
+table.rates td.left
+{
+  border: none;
+}
+
+/* How to find us (map page) */
+div.column-2right p
+{
+  margin-left: 0px;
+}
+
+div.column-2right p img
+{
+
+}
+
+/* Contact form */
+div.column-2right textarea
+{
+  width: 389px;
+}
+
+div.column-2right form
+{
+  padding-bottom: 20px;
+}
