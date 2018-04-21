@@ -42,8 +42,8 @@
 <li class="collapsed"><a href="facilities.html">Facilities</a></li>
 <li class="leaf"><a href="location.html">Location</a></li>
 </ul></div>	</div>
-	<div class="column column-2right" id="">
-						<form action="contact.html"  accept-charset="UTF-8" method="post" id="contact-mail-page">
+<div class="column column-2right" id="">
+<form action="https://formspree.io/webform.submission@almapark.co.uk" method="POST">
 <div><p>For more information on any of the services detailed here, please contact:</p>
 <p><b>Michael Stanhope</b>, Site coordinator on 01455 220800</p>
 <p>Alma Park, <br />
@@ -58,27 +58,15 @@ LE17 5BH</p>
 </div>
 <div class="form-item" id="edit-mail-wrapper">
  <label for="edit-mail">Your e-mail address: <span class="form-required" title="This field is required.">*</span></label>
- <input type="text" maxlength="255" name="mail" id="edit-mail"  size="60" value="" class="form-text required" />
-</div>
-<div class="form-item" id="edit-subject-wrapper">
- <label for="edit-subject">Subject: <span class="form-required" title="This field is required.">*</span></label>
- <input type="text" maxlength="255" name="subject" id="edit-subject"  size="60" value="" class="form-text required" />
+ <input type="email" maxlength="255" name="_replyto" id="edit-mail"  size="60" value="" class="form-text required" />
 </div>
 <div class="form-item" id="edit-message-wrapper">
  <label for="edit-message">Message: <span class="form-required" title="This field is required.">*</span></label>
  <textarea cols="60" rows="5" name="message" id="edit-message"  class="form-textarea resizable required"></textarea>
 </div>
-<input type="submit" name="op" id="edit-submit" value="Send e-mail"  class="form-submit" />
-<input type="hidden" name="form_id" id="edit-contact-mail-page" value="contact_mail_page"  />
-
+<button type="submit" id="edit-submit" class="form-submit">Send e-mail</button>
+<input type="text" name="_gotcha" style="display:none" />
 </div></form>
-
-<form action="https://formspree.io/webform.submission@almapark.co.uk" method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form>
-
 			</div>
 
 	<p class="magic">&nbsp;</p>
